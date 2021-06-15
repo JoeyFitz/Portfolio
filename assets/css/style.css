@@ -1,0 +1,108 @@
+/* Apply this styling to entire webpage */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Give the site's body a background color */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Apply below styling to entire header element */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: honeydew;
+    text-align: center;
+    display: block;
+}
+
+/* Style the header */ 
+header h1 {
+    font-size: 48px;
+}
+
+/* Style the navigation links below the header */ 
+nav {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* Remove any marker from the list items */ 
+nav ul {
+    list-style-type: none;
+
+}
+
+/* Display list items within header inline */
+nav ul li {
+    display: inline-block;
+}
+
+figure {
+    height: 800px;
+    width: 100%;
+    background-image: url("../images/cityscape.jpg");
+    background-size: cover;
+    background-position: center;
+    border-bottom: black 10px solid;
+    border-top: black 10px solid;
+}
+
+.About {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a607c;
+    padding: 50px;
+    border-bottom: black 10px solid;
+}
+
+.Avatar {
+    filter: grayscale(50%);
+    border-radius: 50%;
+    padding: 10px;
+    flex-basis: 25%;
+}
+
+.Bio {
+    font-size: 20px;
+    padding-left: 20px;
+    color: honeydew;
+}
+
+.Bio h2 {
+    text-align: center;
+}
+
+.Bio p {
+    text-indent: 25px;
+}
+
+.Work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.Work h2 {
+    display: block;
+    text-align: center;
+}
+
+.Projects {
+    border: black 5px dashed;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
