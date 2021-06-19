@@ -122,6 +122,13 @@ figure {
 .Contact {
     text-align: center;
     font-size: 36px;
+    background-color: #76b9db;
+}
+
+.Contact h2 {
+    font-size: 36px;
+    padding: 25px;
+    color: honeydew;
 }
 
 .Contact ul {
@@ -130,8 +137,13 @@ figure {
 
 .Contact li {
     display: inline-block;
+    padding: 25px;
 }
 
+.Contact li a {
+    text-decoration: none;
+    color: honeydew;
+}
 
 footer {
     padding: 30px;
